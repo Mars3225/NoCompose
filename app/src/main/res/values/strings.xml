@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">NoCompose</string>
+    <string name="snuffles">Snuffles</string>
+    <string name="alive_animal">Alive - Animal</string>
+    <string name="last_known_location">Last known location:</string>
+    <string name="story_train">Story Train</string>
+    <string name="first_seen_in">First seen in:</string>
+    <string name="never_ricking_morty">Never Ricking Morty</string>
+    <string name="snuffles_snowball">Snuffles (Snowball)</string>
+    <string name="unknown">unknown</string>
+    <string name="lawnmower_dog">Lawnmower Dog</string>
 </resources>
