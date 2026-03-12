@@ -33,7 +33,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="5dp"
                 android:text="Snuffles"
-                android:textColor="@color/white"
+                android:textColor="#F5F5F5"
                 android:textSize="18dp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toEndOf="@+id/image"
@@ -52,15 +52,29 @@
             </ImageView>
 
             <TextView
+                android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
                 android:text="Alive - Animal"
                 android:textColor="@color/white"
-                android:layout_marginStart="5dp"
                 android:textSize="12dp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toEndOf="@+id/imageView"
                 app:layout_constraintTop_toBottomOf="@+id/name">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Last known location:"
+                android:textColor="#9E9E9E"
+                android:layout_marginTop="15dp"
+                android:textSize="12dp"
+                android:layout_marginStart="5dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/image"
+                app:layout_constraintTop_toBottomOf="@+id/textView2">
             </TextView>
 
 
